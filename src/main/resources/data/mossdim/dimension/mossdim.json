@@ -1,0 +1,14 @@
+{
+  "type": "mossdim:mossdim",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:overworld",
+    "biome_source": {
+      "type": "minecraft:fixed",
+          "biome": "minecraft:windswept_gravelly_hills",
+          "parameters": {
+            "weirdness": "2.0"
+          }
+    }
+  }
+}
